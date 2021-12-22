@@ -17,7 +17,7 @@ Even if you are not using SQL for the transformation, reading through the SQL sc
 
 Have questions? Drop me a line at abroniewski@gmail.com
 
-## Benchmarking Methodology
+# Benchmarking Methodology
 
 The following tools were installed to complete the benchmark: 
 - SQL Server 2019 Express
