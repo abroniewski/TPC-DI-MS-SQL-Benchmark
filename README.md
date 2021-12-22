@@ -1,4 +1,4 @@
-# TPC-DI MS SQL Server Benchmark
+# TPC-DI: MS SQL Server Benchmark
 
 ## The files you need...
 The report in the `/Deliverables` path provides an overview of how the benchmark was performed.  
