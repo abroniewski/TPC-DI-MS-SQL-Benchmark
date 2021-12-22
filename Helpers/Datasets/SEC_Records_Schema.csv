@@ -1,0 +1,13 @@
+Field,Length
+PTS,15
+RecType,3
+Symbol,15
+IssueType,6
+Status,4
+Name,70
+ExID,6
+ShOut,13
+FirstTradeDate,8
+FirstTradeExchg,8
+Dividend,12
+CoNameOrCIK,60

@@ -1,0 +1,29 @@
+XML SSIS Instructions
+
+Move CustomerMgmt.xsd to appropriate location in folder structure. Recommnendation is to include
+the CustomerMgmt.xsd file in same location as CustomerMgmt.xml file to avoid conflicts.
+
+1. From SSIS Toolbox, add Data Flow Task to control area
+2. Right click, rename to "XML Data Flow Task"
+3. Open XML Data Flow Task
+4. From SSIS Toolbox, drag XML Source
+5. Double click XML Source
+6. Set XML location to:
+    [OneDrive Pointer]]/419-SQLServerBenchmark Project/TPC-DI/Data/SF3/Batch1/CustomerMgmt.xml
+7. Set XSD location to:
+    [Appropriate Location]/CustomerMgmt.xsd
+8. You may get multiple warnings. Choose to continue with operation.
+9. Dialogue box shows External Column and Output Column. Everything should be aligned.
+10. If no red cross on icon, task configuration was successful
+
+Import XML source data into SQL server tables
+11. After the tables are created in database, use the OLE DB Destination task from SSIS toolbox
+    to insert the data into SQL Server table
+12. Table should be available from drop down, select DimCustomer. Click OK.
+13. Validate the column mappings are correct.
+14. We should see XML Source task connected to OLE DB Destination task
+15. Execute package to test. Two green checkmarks mean success
+
+Troubleshooting Resources
+Invalid data types - right click XML Source, choose Show Advanced Editor and manipulate types
+https://www.sqlshack.com/import-xml-documents-into-sql-server-tables-using-ssis-packages/

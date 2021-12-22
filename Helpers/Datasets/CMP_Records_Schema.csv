@@ -1,0 +1,17 @@
+Field,Length
+PTS,15
+RecType,3
+CompanyName,60
+CIK,10
+Status,4
+IndustryID,2
+SPrating,4
+FoundingDate,8
+AddrLine1,80
+AddrLine2,80
+PostalCode,12
+City,25
+StateProvince,20
+Country,24
+CEOname,46
+Description,150
