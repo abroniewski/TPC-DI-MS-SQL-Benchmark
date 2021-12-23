@@ -1,5 +1,12 @@
 # TPC-DI: MS SQL Server Benchmark
 
+## Project Team
+The work in this repo was completed by:  
+- Diogo Repas
+- Nicole Kovacs
+- Andres Espinal
+- Adam Broniewski
+
 ## The files you need...
 The report in the `/Deliverables` path provides an overview of how the benchmark was performed.  
 The `/Helpers` path has the scripts used to run the benchmark. 
