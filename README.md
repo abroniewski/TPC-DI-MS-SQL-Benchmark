@@ -1,5 +1,10 @@
 # TPC-DI: MS SQL Server Benchmark
 
+The project was complete in 2021 as part of the Big Data Management and Analytics (BDMA) program for the Database Warehouse course at Universite Libre de Bruxelles (ULB) in Bruselles.
+
+**Are you a current BDMA student?** Don't be shy! [Reach out](mailto:abroniewski@gmail.com?subject=[GitHub]%20DBW%20TPCDI%20Benchmark) for insights and tips!
+
+
 ## Project Team
 The work in this repo was completed by:  
 - Diogo Repas
